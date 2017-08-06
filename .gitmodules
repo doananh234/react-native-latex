@@ -1,2 +1,3 @@
 [submodule "iosMath"]
+  path=iosMath
 	url = https://github.com/doananh234/iosMath.git
