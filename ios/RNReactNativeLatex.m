@@ -16,3 +16,4 @@ RCT_EXPORT_VIEW_PROPERTY(textColor, NSString)
     label.textColor = [UIColor colorWithHexString:textColor];
     return label;
 }
+@end

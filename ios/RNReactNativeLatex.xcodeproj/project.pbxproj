@@ -7,38 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FC216E81F370CFA0015035C /* libIosMath.a in Sources */ = {isa = PBXBuildFile; fileRef = 9FC216E51F370CC40015035C /* libIosMath.a */; };
+		9FC217781F37304A0015035C /* libRNReactNativeLatex.a in Sources */ = {isa = PBXBuildFile; fileRef = 134814201AA4EA6300B7C361 /* libRNReactNativeLatex.a */; };
 		B3E7B58A1CC2AC0600A0062D /* RNReactNativeLatex.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNReactNativeLatex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9FC216E01F370CC40015035C /* PBXContainerItemProxy */ = {
+		9FC2176E1F3730370015035C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FC216D91F370CC40015035C /* iosMath.xcodeproj */;
+			containerPortal = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 49965EFC17CBBA2700A555C5;
 			remoteInfo = iosMathExample;
 		};
-		9FC216E21F370CC40015035C /* PBXContainerItemProxy */ = {
+		9FC217701F3730370015035C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FC216D91F370CC40015035C /* iosMath.xcodeproj */;
+			containerPortal = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 49965F1C17CBBA2700A555C5;
 			remoteInfo = iosMathTests;
 		};
-		9FC216E41F370CC40015035C /* PBXContainerItemProxy */ = {
+		9FC217721F3730370015035C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FC216D91F370CC40015035C /* iosMath.xcodeproj */;
+			containerPortal = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4987307517D546800041B02B;
 			remoteInfo = IosMath;
 		};
-		9FC216E61F370CC40015035C /* PBXContainerItemProxy */ = {
+		9FC217741F3730370015035C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FC216D91F370CC40015035C /* iosMath.xcodeproj */;
+			containerPortal = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 49A27B0118EBF5B30030B7EF;
 			remoteInfo = MathFontBundle;
+		};
+		9FC217761F3730440015035C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4987307417D546800041B02B;
+			remoteInfo = IosMath;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,7 +63,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNReactNativeLatex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNReactNativeLatex.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FC216D91F370CC40015035C /* iosMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iosMath.xcodeproj; path = ../iosMath/iosMath.xcodeproj; sourceTree = "<group>"; };
+		9FC217671F3730370015035C /* iosMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iosMath.xcodeproj; path = ../iosMath/iosMath.xcodeproj; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNReactNativeLatex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNReactNativeLatex.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNReactNativeLatex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNReactNativeLatex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,20 +90,20 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				9FC216D91F370CC40015035C /* iosMath.xcodeproj */,
+				9FC217671F3730370015035C /* iosMath.xcodeproj */,
 				B3E7B5881CC2AC0600A0062D /* RNReactNativeLatex.h */,
 				B3E7B5891CC2AC0600A0062D /* RNReactNativeLatex.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9FC216DA1F370CC40015035C /* Products */ = {
+		9FC217681F3730370015035C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FC216E11F370CC40015035C /* iosMathExample.app */,
-				9FC216E31F370CC40015035C /* iosMathTests.xctest */,
-				9FC216E51F370CC40015035C /* libIosMath.a */,
-				9FC216E71F370CC40015035C /* MathFontBundle.bundle */,
+				9FC2176F1F3730370015035C /* iosMathExample.app */,
+				9FC217711F3730370015035C /* iosMathTests.xctest */,
+				9FC217731F3730370015035C /* libIosMath.a */,
+				9FC217751F3730370015035C /* MathFontBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +122,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9FC217771F3730440015035C /* PBXTargetDependency */,
 			);
 			name = RNReactNativeLatex;
 			productName = RCTDataManager;
@@ -147,8 +155,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9FC216DA1F370CC40015035C /* Products */;
-					ProjectRef = 9FC216D91F370CC40015035C /* iosMath.xcodeproj */;
+					ProductGroup = 9FC217681F3730370015035C /* Products */;
+					ProjectRef = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -159,32 +167,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9FC216E11F370CC40015035C /* iosMathExample.app */ = {
+		9FC2176F1F3730370015035C /* iosMathExample.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = iosMathExample.app;
-			remoteRef = 9FC216E01F370CC40015035C /* PBXContainerItemProxy */;
+			remoteRef = 9FC2176E1F3730370015035C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9FC216E31F370CC40015035C /* iosMathTests.xctest */ = {
+		9FC217711F3730370015035C /* iosMathTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = iosMathTests.xctest;
-			remoteRef = 9FC216E21F370CC40015035C /* PBXContainerItemProxy */;
+			remoteRef = 9FC217701F3730370015035C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9FC216E51F370CC40015035C /* libIosMath.a */ = {
+		9FC217731F3730370015035C /* libIosMath.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libIosMath.a;
-			remoteRef = 9FC216E41F370CC40015035C /* PBXContainerItemProxy */;
+			remoteRef = 9FC217721F3730370015035C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9FC216E71F370CC40015035C /* MathFontBundle.bundle */ = {
+		9FC217751F3730370015035C /* MathFontBundle.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = MathFontBundle.bundle;
-			remoteRef = 9FC216E61F370CC40015035C /* PBXContainerItemProxy */;
+			remoteRef = 9FC217741F3730370015035C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -194,12 +202,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC217781F37304A0015035C /* libRNReactNativeLatex.a in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNReactNativeLatex.m in Sources */,
-				9FC216E81F370CFA0015035C /* libIosMath.a in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FC217771F3730440015035C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IosMath;
+			targetProxy = 9FC217761F3730440015035C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		58B511ED1A9E6C8500147676 /* Debug */ = {
@@ -284,6 +300,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/",
+					"$(SRCROOT)/iosMath",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -300,6 +318,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/",
+					"$(SRCROOT)/iosMath",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";

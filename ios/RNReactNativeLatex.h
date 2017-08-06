@@ -1,5 +1,5 @@
 
-#if __has_include("RCTBridgeModule.h")
+#if __has_include("RCTViewManager")
 #import "RCTViewManager"
 #else
 #import <React/RCTViewManager.h>
