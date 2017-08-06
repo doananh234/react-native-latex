@@ -15,6 +15,8 @@
 		9FC218841F373FEA0015035C /* latinmodern-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FC218831F373FEA0015035C /* latinmodern-math.otf */; };
 		9FC218891F3741A60015035C /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC218881F3741A60015035C /* libc.tbd */; };
 		9FC2189B1F3743060015035C /* libIosMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC218961F3742F80015035C /* libIosMath.a */; };
+		9FC2189F1F3748590015035C /* RNLatexManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC2189D1F3748590015035C /* RNLatexManager.h */; };
+		9FC218A01F3748590015035C /* RNLatexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2189E1F3748590015035C /* RNLatexManager.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNReactNativeLatex.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNReactNativeLatex.m */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +79,8 @@
 		9FC218831F373FEA0015035C /* latinmodern-math.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "latinmodern-math.otf"; sourceTree = "<group>"; };
 		9FC218881F3741A60015035C /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
 		9FC2188A1F3742F80015035C /* iosMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iosMath.xcodeproj; path = iosMath/iosMath.xcodeproj; sourceTree = "<group>"; };
+		9FC2189D1F3748590015035C /* RNLatexManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLatexManager.h; sourceTree = "<group>"; };
+		9FC2189E1F3748590015035C /* RNLatexManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLatexManager.m; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNReactNativeLatex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNReactNativeLatex.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNReactNativeLatex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNReactNativeLatex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +109,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				9FC2189D1F3748590015035C /* RNLatexManager.h */,
+				9FC2189E1F3748590015035C /* RNLatexManager.m */,
 				9FC2188A1F3742F80015035C /* iosMath.xcodeproj */,
 				9FC218831F373FEA0015035C /* latinmodern-math.otf */,
 				9FC218811F373FE60015035C /* latinmodern-math.plist */,
@@ -144,6 +150,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC2189F1F3748590015035C /* RNLatexManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC218A01F3748590015035C /* RNLatexManager.m in Sources */,
 				9FC217781F37304A0015035C /* libRNReactNativeLatex.a in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNReactNativeLatex.m in Sources */,
 			);

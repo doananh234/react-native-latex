@@ -1,18 +1,79 @@
 #import "RNReactNativeLatex.h"
-
+#import <React/RCTConvert.h>
+#import <React/RCTBridgeModule.h>
+#import <React/UIView+React.h>
 @implementation RNReactNativeLatex
-
-RCT_EXPORT_MODULE()
-
-RCT_EXPORT_VIEW_PROPERTY(latex, NSString)
-RCT_EXPORT_VIEW_PROPERTY(fontSize,  int)
-RCT_EXPORT_VIEW_PROPERTY(textColor, NSString)
-- (UIView *)view
 {
-    MTMathUILabel* label = [[MTMathUILabel alloc] init];
-    label.latex = latex;
-    label.fontSize = fontSize;
-    label.textColor = [UIColor colorWithHexString:textColor];
-    return label;
+    MTMathUILabel *_RNTLatex;
+    NSString *_latex;
+    NSNumber *_fontSize;
+    UIColor *_color;
 }
+#pragma mark - Setter
+
+- (void)setFontSize:(NSNumber*)fontSize {
+    _fontSize = fontSize;
+    if (_RNTLatex) {
+        _RNTLatex.fontSize = [_fontSize doubleValue];
+    }
+}
+
+- (NSNumber*)fontSize {
+    return _fontSize;
+}
+
+- (void)setLatex:(NSString*)latex
+{
+    _latex = latex;
+    if (_RNTLatex) {
+        _RNTLatex.latex = _latex;
+    }
+}
+
+- (NSString*)latex {
+    return _latex;
+}
+
+- (void)setColor:(NSNumber*)color
+{
+    _color = [RCTConvert UIColor:color];
+    if (_RNTLatex) {
+        _RNTLatex.textColor = _color;
+    }
+}
+
+- (UIColor*)color {
+    return _color;
+}
+
+
+#pragma mark - React View Management
+
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    if (_RNTLatex == nil) {
+        _RNTLatex =  [[MTMathUILabel alloc] init];
+        _RNTLatex.textColor = _color;
+        _RNTLatex.latex = _latex;
+        _RNTLatex.fontSize = [_fontSize doubleValue];
+        [self insertSubview:_RNTLatex atIndex:0];
+    }
+}
+
+- (void)insertReactSubview:(UIView *)view atIndex:(NSInteger)atIndex
+{
+    [self addSubview:view];
+}
+
+- (void)removeReactSubview:(UIView *)subview
+{
+    [subview removeFromSuperview];
+}
+
+- (void)removeFromSuperview
+{
+    [super removeFromSuperview];
+}
+
 @end
