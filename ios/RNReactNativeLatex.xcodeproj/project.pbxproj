@@ -8,41 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		9FC217781F37304A0015035C /* libRNReactNativeLatex.a in Sources */ = {isa = PBXBuildFile; fileRef = 134814201AA4EA6300B7C361 /* libRNReactNativeLatex.a */; };
+		9FC2187C1F373FD40015035C /* xits-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2187B1F373FD40015035C /* xits-math.plist */; };
+		9FC2187E1F373FDF0015035C /* xits-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2187D1F373FDF0015035C /* xits-math.otf */; };
+		9FC218801F373FE20015035C /* texgyretermes-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2187F1F373FE20015035C /* texgyretermes-math.plist */; };
+		9FC218821F373FE60015035C /* latinmodern-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FC218811F373FE60015035C /* latinmodern-math.plist */; };
+		9FC218841F373FEA0015035C /* latinmodern-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FC218831F373FEA0015035C /* latinmodern-math.otf */; };
+		9FC218891F3741A60015035C /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC218881F3741A60015035C /* libc.tbd */; };
+		9FC2189B1F3743060015035C /* libIosMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC218961F3742F80015035C /* libIosMath.a */; };
 		B3E7B58A1CC2AC0600A0062D /* RNReactNativeLatex.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNReactNativeLatex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9FC2176E1F3730370015035C /* PBXContainerItemProxy */ = {
+		9FC218911F3742F80015035C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
+			containerPortal = 9FC2188A1F3742F80015035C /* iosMath.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 49965EFC17CBBA2700A555C5;
 			remoteInfo = iosMathExample;
 		};
-		9FC217701F3730370015035C /* PBXContainerItemProxy */ = {
+		9FC218931F3742F80015035C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
+			containerPortal = 9FC2188A1F3742F80015035C /* iosMath.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 49965F1C17CBBA2700A555C5;
 			remoteInfo = iosMathTests;
 		};
-		9FC217721F3730370015035C /* PBXContainerItemProxy */ = {
+		9FC218951F3742F80015035C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
+			containerPortal = 9FC2188A1F3742F80015035C /* iosMath.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4987307517D546800041B02B;
 			remoteInfo = IosMath;
 		};
-		9FC217741F3730370015035C /* PBXContainerItemProxy */ = {
+		9FC218971F3742F80015035C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
+			containerPortal = 9FC2188A1F3742F80015035C /* iosMath.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 49A27B0118EBF5B30030B7EF;
 			remoteInfo = MathFontBundle;
 		};
-		9FC217761F3730440015035C /* PBXContainerItemProxy */ = {
+		9FC218991F3742FD0015035C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
+			containerPortal = 9FC2188A1F3742F80015035C /* iosMath.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 4987307417D546800041B02B;
 			remoteInfo = IosMath;
@@ -63,7 +70,13 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNReactNativeLatex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNReactNativeLatex.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FC217671F3730370015035C /* iosMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iosMath.xcodeproj; path = ../iosMath/iosMath.xcodeproj; sourceTree = "<group>"; };
+		9FC2187B1F373FD40015035C /* xits-math.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xits-math.plist"; sourceTree = "<group>"; };
+		9FC2187D1F373FDF0015035C /* xits-math.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "xits-math.otf"; sourceTree = "<group>"; };
+		9FC2187F1F373FE20015035C /* texgyretermes-math.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "texgyretermes-math.plist"; sourceTree = "<group>"; };
+		9FC218811F373FE60015035C /* latinmodern-math.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "latinmodern-math.plist"; sourceTree = "<group>"; };
+		9FC218831F373FEA0015035C /* latinmodern-math.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "latinmodern-math.otf"; sourceTree = "<group>"; };
+		9FC218881F3741A60015035C /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		9FC2188A1F3742F80015035C /* iosMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iosMath.xcodeproj; path = iosMath/iosMath.xcodeproj; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNReactNativeLatex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNReactNativeLatex.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNReactNativeLatex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNReactNativeLatex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC2189B1F3743060015035C /* libIosMath.a in Frameworks */,
+				9FC218891F3741A60015035C /* libc.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,25 +105,49 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				9FC217671F3730370015035C /* iosMath.xcodeproj */,
+				9FC2188A1F3742F80015035C /* iosMath.xcodeproj */,
+				9FC218831F373FEA0015035C /* latinmodern-math.otf */,
+				9FC218811F373FE60015035C /* latinmodern-math.plist */,
+				9FC2187F1F373FE20015035C /* texgyretermes-math.plist */,
+				9FC2187D1F373FDF0015035C /* xits-math.otf */,
+				9FC2187B1F373FD40015035C /* xits-math.plist */,
 				B3E7B5881CC2AC0600A0062D /* RNReactNativeLatex.h */,
 				B3E7B5891CC2AC0600A0062D /* RNReactNativeLatex.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				9FC218871F3741A60015035C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9FC217681F3730370015035C /* Products */ = {
+		9FC218871F3741A60015035C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9FC2176F1F3730370015035C /* iosMathExample.app */,
-				9FC217711F3730370015035C /* iosMathTests.xctest */,
-				9FC217731F3730370015035C /* libIosMath.a */,
-				9FC217751F3730370015035C /* MathFontBundle.bundle */,
+				9FC218881F3741A60015035C /* libc.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FC2188B1F3742F80015035C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC218921F3742F80015035C /* iosMathExample.app */,
+				9FC218941F3742F80015035C /* iosMathTests.xctest */,
+				9FC218961F3742F80015035C /* libIosMath.a */,
+				9FC218981F3742F80015035C /* MathFontBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9FC218851F373FF40015035C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		58B511DA1A9E6C8500147676 /* RNReactNativeLatex */ = {
@@ -118,11 +157,13 @@
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
+				9FC2187A1F373FC50015035C /* Resources */,
+				9FC218851F373FF40015035C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9FC217771F3730440015035C /* PBXTargetDependency */,
+				9FC2189A1F3742FD0015035C /* PBXTargetDependency */,
 			);
 			name = RNReactNativeLatex;
 			productName = RCTDataManager;
@@ -155,8 +196,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9FC217681F3730370015035C /* Products */;
-					ProjectRef = 9FC217671F3730370015035C /* iosMath.xcodeproj */;
+					ProductGroup = 9FC2188B1F3742F80015035C /* Products */;
+					ProjectRef = 9FC2188A1F3742F80015035C /* iosMath.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -167,35 +208,50 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9FC2176F1F3730370015035C /* iosMathExample.app */ = {
+		9FC218921F3742F80015035C /* iosMathExample.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = iosMathExample.app;
-			remoteRef = 9FC2176E1F3730370015035C /* PBXContainerItemProxy */;
+			remoteRef = 9FC218911F3742F80015035C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9FC217711F3730370015035C /* iosMathTests.xctest */ = {
+		9FC218941F3742F80015035C /* iosMathTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = iosMathTests.xctest;
-			remoteRef = 9FC217701F3730370015035C /* PBXContainerItemProxy */;
+			remoteRef = 9FC218931F3742F80015035C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9FC217731F3730370015035C /* libIosMath.a */ = {
+		9FC218961F3742F80015035C /* libIosMath.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libIosMath.a;
-			remoteRef = 9FC217721F3730370015035C /* PBXContainerItemProxy */;
+			remoteRef = 9FC218951F3742F80015035C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9FC217751F3730370015035C /* MathFontBundle.bundle */ = {
+		9FC218981F3742F80015035C /* MathFontBundle.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = MathFontBundle.bundle;
-			remoteRef = 9FC217741F3730370015035C /* PBXContainerItemProxy */;
+			remoteRef = 9FC218971F3742F80015035C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC2187A1F373FC50015035C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC2187C1F373FD40015035C /* xits-math.plist in Resources */,
+				9FC2187E1F373FDF0015035C /* xits-math.otf in Resources */,
+				9FC218801F373FE20015035C /* texgyretermes-math.plist in Resources */,
+				9FC218841F373FEA0015035C /* latinmodern-math.otf in Resources */,
+				9FC218821F373FE60015035C /* latinmodern-math.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -210,10 +266,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9FC217771F3730440015035C /* PBXTargetDependency */ = {
+		9FC2189A1F3742FD0015035C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IosMath;
-			targetProxy = 9FC217761F3730440015035C /* PBXContainerItemProxy */;
+			targetProxy = 9FC218991F3742FD0015035C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -301,7 +357,9 @@
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/",
-					"$(SRCROOT)/iosMath",
+					"$(SRCROOT)/iosMath/iosMath",
+					"$(SRCROOT)/iosMath/iosMath/render",
+					"$(SRCROOT)/iosMath/iosMath/lib",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -319,7 +377,9 @@
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/",
-					"$(SRCROOT)/iosMath",
+					"$(SRCROOT)/iosMath/iosMath",
+					"$(SRCROOT)/iosMath/iosMath/render",
+					"$(SRCROOT)/iosMath/iosMath/lib",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";

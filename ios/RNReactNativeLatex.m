@@ -1,4 +1,3 @@
-
 #import "RNReactNativeLatex.h"
 
 @implementation RNReactNativeLatex
