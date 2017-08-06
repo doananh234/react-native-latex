@@ -13,7 +13,6 @@
 		9FC218801F373FE20015035C /* texgyretermes-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2187F1F373FE20015035C /* texgyretermes-math.plist */; };
 		9FC218821F373FE60015035C /* latinmodern-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FC218811F373FE60015035C /* latinmodern-math.plist */; };
 		9FC218841F373FEA0015035C /* latinmodern-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FC218831F373FEA0015035C /* latinmodern-math.otf */; };
-		9FC218891F3741A60015035C /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC218881F3741A60015035C /* libc.tbd */; };
 		9FC2189B1F3743060015035C /* libIosMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC218961F3742F80015035C /* libIosMath.a */; };
 		9FC2189F1F3748590015035C /* RNLatexManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC2189D1F3748590015035C /* RNLatexManager.h */; };
 		9FC218A01F3748590015035C /* RNLatexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2189E1F3748590015035C /* RNLatexManager.m */; };
@@ -91,7 +90,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC2189B1F3743060015035C /* libIosMath.a in Frameworks */,
-				9FC218891F3741A60015035C /* libc.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

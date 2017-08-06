@@ -1,6 +1,6 @@
 #import "RNReactNativeLatex.h"
 #import "RNLatexManager.h"
-@implementation RNLatexManager.h
+@implementation RNLatexManager
 
 RCT_EXPORT_MODULE();
 

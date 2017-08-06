@@ -6,7 +6,7 @@
 #else
 #import <React/RCTViewManager.h>
 #endif
-@interface RNReactNativeLatex : RCTViewManager
+@interface RNLatexManager: RCTViewManager
 @end
 
 #endif
